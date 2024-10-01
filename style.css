@@ -177,7 +177,6 @@ footer p {
     margin: 0;
 }
 
-
 .contact-info {
     width: 70%;
     max-width: 950px;
@@ -212,13 +211,12 @@ footer p {
     border-radius: 5px;
 }
 
-
 form {
     width: 70%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 25px;
     background-color: #f0f0f0;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 fieldset {
@@ -473,6 +471,7 @@ button:hover {
     
     form {
         width: 95%;
+        margin: auto 0;
         padding: 15px;
         gap: 5px;
         align-items: center;
