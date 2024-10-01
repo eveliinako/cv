@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Eveliina Korhola - CV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <span class="icon" onclick="toggleNavbar()"><i class="fas fa-bars"></i></span>
+            <ul>
+                <li><a class="links"href="index.html">HOME</a></li>
+                <li><a class="links selected" href="experience-education.html">EXPERIENCE AND EDUCATION</a></li>
+                <li><a class="links" href="technologies.html">TECHNOLOGIES</a></li>
+                <li><a class="links" href="contact.html">CONTACT ME</a></li>                
+            </ul>
+        </nav>
+        <header class="not-homepage">
+            <h1>Experience and Education</h1>
+        </header>
+        <section class="experience-education">
+            <div class="ee-item">
+                <h2>Work Experience</h2>
+                <h3 class="highlight">KELA </h3>
+                <p class="date">10/2018 - PRESENT</p>
+                <p>Currently I work as a Solution Specialist. My role involves processing social benefit applications.</p>
+                <h3 class="highlight">FERRUM STEEL OY</h3>
+                <p class="date">3/2017 – 9/2018</p>
+                <p>At Ferrum Steel Oy I worked as a Sales Assistant. My responsibilites included customer service via phone and email and handling orders and claims. My daily tasks also involved reading technical drawings and creating 2D geometries.</p>
+                <h3 class="highlight">POP PANKKI</h3>
+                <p class="date">5/2015 – 12/2015 and 5/2016 – 3/2017</p>
+                <p>As part of my BBA studies, I completed a five-month internship at the POP Pankki and after that continued working as a Customer Service Specialist during and after my studies.</p>
+            </div>
+            <div class="ee-item">
+                <h2>Education</h2>
+                <h3 class="highlight">METROPOLIA UNIVERSITY OF APPLIED SCIENCES</h3>
+                <p class="date">1/2024 – PRESENT</p>
+                <p>Bachelor of Engineering, Information and Communication Technology</p>
+                <h3 class="highlight">SEINÄJOKI UNIVERSITY OF APPLIED SCIENCES</h3>
+                <p class="date">9/2013 – 12/2016</p>
+                <p>Bachelor of Business Administration, Management of Personnel and Processes</p>
+                <h3 class="highlight">KAUHAJOKI HIGH SCHOOL</h3>
+                <p class="date">8/2010 - 5/2013</p>
+                <p>High School Diploma</p>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright © 2024 Eveliina Korhola</p>
+        </footer>
+        <script>
+            function toggleNavbar() {
+                var navbar = document.getElementById("navbar");
+                if (navbar.className === "") {
+                    navbar.className = "responsive";
+                } else {
+                    navbar.className="";
+                }
+            }
+        </script>
+    </body>
+</html>
