@@ -19,7 +19,7 @@ h2 {
     font-family: "Fira Sans", system-ui;
     font-weight: 600;
     font-style: normal;
-    font-size: 30px;
+    font-size: 28px;
     color: #282828;
 }
 
@@ -512,7 +512,7 @@ button:hover {
     }
     
     h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
     
     h3 {
